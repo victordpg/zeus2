@@ -94,12 +94,17 @@
 			<artifactId>gxt</artifactId>
 			<version>3.0.1</version>
 		</dependency>
-		<dependency>
+		<!-- <dependency>
 			<groupId>org.moxiegroup.gwt</groupId>
 			<artifactId>highcharts</artifactId>
 			<version>1.4-0</version>
 			<scope>system</scope>
 			<systemPath>${local.highcharts}</systemPath>
+		</dependency> -->
+		<dependency>
+			<groupId>org.moxieapps.gwt</groupId>
+			<artifactId>highcharts</artifactId>
+			<version>1.4.0</version>
 		</dependency>
 		<dependency>
 			<groupId>org.slf4j</groupId>
